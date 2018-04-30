@@ -1,1 +1,166 @@
 @import "bootstrap";
+body {
+  background-color: #fafafa;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.top-nav {
+  background-color: white;
+  border-bottom-color: #edeeee;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  height: 70px;
+  padding-top: 15px;
+}
+
+.brand {
+  color: #125688;
+  font-size: 30px;
+  font-family: 'Pacifico', cursive;
+}
+
+.top-nav .add a {
+  font-weight: bold;
+  color: #125688;
+  font-size: 16px;
+  padding-left: 8px;
+}
+
+.top-nav .add {
+  margin-top: 10px;
+}
+
+.card {
+  background-color: #fff;
+  border-radius: .25rem;
+  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.25);
+  border: 1px solid #e8e8e8;
+  margin-top: 40px;
+  padding: 0;
+}
+
+.handle {
+  margin: 10px;
+  color: #125688;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.card p, .card .message {
+  font-size: 18px;
+  margin: 20px;
+}
+
+.card.form {
+  padding: 20px;
+}
+
+label {
+  font-size: 18px;
+}
+
+input {
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.my-btn {
+  background-color: #125688;
+  width: 100%;
+  border: none;
+  font-size: 24px;
+  color: white;
+  margin-top: 10px;
+}
+
+h1 {
+  font-size: 25px;
+}
+
+.input.boolean {
+  margin-left: 18px;
+  margin-top: 5px;
+}
+
+.input.boolean label {
+  margin-top: 5px;
+  line-height: 44px;
+}
+
+abbr {
+  display: none;
+}
+
+#gram_picture {
+  margin: 10px;
+}
+
+body > div.col-10.offset-1.col-sm-8.offset-sm-2.col-md-6.offset-md-3.card.form > a {
+  margin: 10px;
+}
+
+body > div.col-10.offset-1.col-sm-8.offset-sm-2.col-md-6.offset-md-3.card.form > br {
+  display: none;
+}
+
+.gram-actions a {
+  font-weight: bold;
+  font-size: 16px;
+  margin: 20px;
+}
+
+.logo:link {
+    color: #125688;
+}
+
+
+.logo:visited {
+    color: #125688;
+}
+
+.logo:hover {
+    color: #125688;
+    text-decoration: none;
+}
+
+.logo:active {
+    color: #125688;
+}
+
+a:link {
+    color: #125688;
+}
+
+
+a:visited {
+    color: #125688;
+}
+
+a:hover {
+    color: #125688;
+    text-decoration: none;
+}
+
+a:active {
+    color: #125688;
+}
+
+.comments {
+  padding: 20px;
+}
+
+.comment {
+  font-size: 16px;
+  margin: 15px 0;
+}
+
+.comment_handle {
+  color: #125688;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+h2, h3, h4 {
+  font-size: 20px;
+  font-weight: bold;
+}
